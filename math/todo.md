@@ -1,0 +1,32 @@
+- [x] Set
+- [x] Category
+- [x] Monoid
+- [x] Group
+- [x] Group Action
+- [x] Functor
+- [x] Topology
+- [x] Open set
+- [x] Open cover
+- [ ] Action
+- [ ] lense/prism/optics/profunctor
+- [ ] Nerve (of a cover)
+- [ ] Natural Transformation
+- [ ] Fiber bundle
+- [ ] Fibration
+- [ ] Vector bundle
+- [ ] Covering space (see how this is just a fiber bundle with descrete fibers)
+- [ ] section
+- [ ] Sheaf
+- [ ] germ
+- [ ] Space of Continous sections related to sheaf
+- [ ] Topological Manifold
+- [ ] Smooth Manifold
+- [ ] Jet 
+- [ ] chart (local coordinates)
+charts and atlas are part of the definition of a smooth manifold
+the formal definition
+- [ ] PL manifold (piecewise linear manifold)
+- [ ] Triangulation
+- [ ] CW complex
+- [ ] contractable (topology)
+- [ ] presheaf

@@ -1,0 +1,22 @@
+### rings
+- [[sets]] R + two binary [[set-operators]] $(+, \cdot)$ if for all $a,b, c \in X$ (D14.1)
+    - commutative +: $a + b = b + a$
+    - associative +: $a + (b + c) = (a + b) + c$
+    - identity +: exists $z \in R$ s.t $a + z = a$
+    - inverse +: exists $b \in R$ s.t. $a + b = z$ 
+    - associative .: $a\cdot (b\cdot c) = (a\cdot b)\cdot c$
+    - distributive $\cdot$ over + : 
+        - $a \cdot (b + c) = a\cdot b + a \cdot c$
+        - $(b + c) \cdot a = b\cdot a + c \cdot a$
+- commutative ring: $a\cdot b=b \cdot a$ for $a, b \in R$
+- nonzero ring: (D14.2) (z is the additive identity)
+    - no proper divisors of zero if $a, b \in R, a \cdot b=z$ then $a=z $or b=z$
+- ring w/ unity:(D14.2) 
+    - multiplicative identity: (z is additive identity)
+        - unity $u$: $u \in R$ s.t. $u \neq z$ and $au=ua=a, a \in X$
+    - multiplicative inverse: (D14.3) 
+        - $a, b \in X$ s.t. $a \cdot b = b \cdot a = u$
+        - b is called a multiplicative inverse of a, a & b are units of R
+        - unit is any element w/ a multiplicative inverse in R (wiki: Unit(ring theory))
+- integral domain ring: nonzero commutative ring w/ unit (D14.4)
+- field: commutative ring w/ unity where every nonzero element is a unit (D14.4) 
