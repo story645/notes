@@ -13,3 +13,9 @@
       - given $c_1, c_2, c_3 \in Ob(\mathcal{C})$, morphisms $f \in \mathcal{C}(c_1, c_2), g \in mathcal{C}(c2, c3)$
           - $F(g\circ f) = F(g) \circ F(f)$ holds in $\mathcal{D}$
             
+Reihl:
+functor consists of a mapping on objects and a mapping on morphisms
+that preserves all of the structure of a category, namely domains and codomains,
+composition, and identities
+
+forgetful functor dorgets structure
