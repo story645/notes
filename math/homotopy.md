@@ -29,3 +29,4 @@ Theorems:
 - any two maps of an arbitrary space to a [[contractable-space]] are homotopic
 - a space is contractable iff it has the same homotopy type as a one-point space
 corollary: two contractible spaces have the same homotopy type and any continuous map between them is a homotopy equivalence
+- two spaces X and Y have the same homotopy type iff then can be imbedded as weak [[retract-deform| deformation retracts]] of the same space Z

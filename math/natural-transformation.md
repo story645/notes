@@ -11,4 +11,7 @@
 
 $\alpha$ is kind of a wrapper: $\alpha(F: C \rightarrow D) = G: C \rightarrow D$ where the diagram commutes for any morphism $f:c\rightarrow c^{\prime}$ 
 
-natural isomorphism: $\alpha:F \rightarrow G$ is called a natural isomorphism if each component $\alpha_c$ is an isomorphism in $\D$ 
+natural isomorphism: $\alpha:F \rightarrow G$ is called a natural isomorphism if each component $\alpha_c$ is an isomorphism in D
+
+One of the following diagrams is commutative, $T_1, T_2$ are functors, $X,Y$ are objects (Spanier)
+![](figures/functors.png)
