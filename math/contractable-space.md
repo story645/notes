@@ -1,6 +1,8 @@
-### contractable space (Spanier)
+### contractable space 
 
-a [[topological-space]] X is contractable if the identity map is [[homotopy|homotopic]] to a constant map of X to itself.
+space w/ the [[homotopy|homotopy-type]] of a point. 
+
+a [[topological-space]] X is contractable if the identity map is homotopic to a constant map of X to itself. (Spanier)
 
 contraction of $X$ to $x_O$ is a homotopy from $1_x$ to the constant map $x_0 \in X$
 

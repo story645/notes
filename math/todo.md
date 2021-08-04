@@ -12,13 +12,8 @@
 - [x] contractable (topology)
 - [x] Nerve (of a cover)
 - [x] Natural Transformation
-- [ ] orbit 
-- [ ] lens
-- [ ] prism
-- [ ] optics
-- [ ] profunctor
-- [ ] Fiber bundle
 - [ ] Fibration
+- [ ] Fiber bundle
 - [ ] Vector bundle
 - [ ] Covering space (see how this is just a fiber bundle with descrete fibers)
 - [ ] section
@@ -35,3 +30,8 @@ the formal definition
 - [ ] Triangulation
 - [ ] CW complex
 - [ ] presheaf
+- [ ] orbit 
+- [ ] lens
+- [ ] prism
+- [ ] optics
+- [ ] profunctor
