@@ -6,11 +6,17 @@
 - [x] Functor
 - [x] Topology
 - [x] Open set
-- [x] Open cover
-- [ ] Action
-- [ ] lense/prism/optics/profunctor
-- [ ] Nerve (of a cover)
-- [ ] Natural Transformation
+- [x] Open cover-
+- [x] Action
+- [x] simplicial complex
+- [x] contractable (topology)
+- [x] Nerve (of a cover)
+- [x] Natural Transformation
+- [ ] orbit 
+- [ ] lens
+- [ ] prism
+- [ ] optics
+- [ ] profunctor
 - [ ] Fiber bundle
 - [ ] Fibration
 - [ ] Vector bundle
@@ -28,5 +34,4 @@ the formal definition
 - [ ] PL manifold (piecewise linear manifold)
 - [ ] Triangulation
 - [ ] CW complex
-- [ ] contractable (topology)
 - [ ] presheaf

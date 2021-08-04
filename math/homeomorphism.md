@@ -1,2 +1,5 @@
 homeomorphism (riehl)
 - [[continous-map]] with continous inverses between two [[topological-space|toplogical spaces]]
+
+    - isomorphisms in the category of topological spaces (wiki)
+    - mappings that preserve topological properties of a given space (wiki)

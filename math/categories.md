@@ -22,6 +22,10 @@
     - traditionally name a category after its objects (top, etc in Bradley)
     - algebra of morphisms determines the category, morphisms take primacy
 
+opposite category (nlab)
+-$C^{op}$ - formally reversing the direction of all it morphisms (while retaining original composition)
+    - $C^{op}$ has same objects as $C$, 
+    - $f:c\rightarrow y$ in $C^{op}$ is $f:y \rightarrow x$  
 ### random notes
 what are the objects, arrows, and notions of equivalence:
 - categories that have a map into set, (everything can be kinda turned into a set)

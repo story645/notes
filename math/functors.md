@@ -18,4 +18,6 @@ functor consists of a mapping on objects and a mapping on morphisms
 that preserves all of the structure of a category, namely domains and codomains,
 composition, and identities
 
-forgetful functor dorgets structure
+forgetful functor forgets structure
+
+also can be defined as [[group-actions|actions]] on a category (nlab)
