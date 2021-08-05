@@ -1,4 +1,5 @@
 ### Functor (covariant, pushforward): (Bradley, Fong & Spivak)
+Functor between category, morphisms within category 
 - specifying functor from [[categories|category]] C to category D $\mathcal{F}: \mathcal{C}\rightarrow \mathcal{D}$
     - object $F(X)$ of the category D for each object X in C
         - every object $c \in Ob(\mathcal{C})$ has a corresponding object $F(c) \in Ob(\mathcal{D})$
