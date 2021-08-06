@@ -12,10 +12,11 @@
 - [x] contractable (topology)
 - [x] Nerve (of a cover)
 - [x] Natural Transformation
+- [x] CW complex
+- [x] Covering space (see how this is just a fiber bundle with descrete fibers)
 - [ ] Fibration
 - [ ] Fiber bundle
 - [ ] Vector bundle
-- [ ] Covering space (see how this is just a fiber bundle with descrete fibers)
 - [ ] section
 - [ ] Sheaf
 - [ ] germ
@@ -28,7 +29,6 @@ charts and atlas are part of the definition of a smooth manifold
 the formal definition
 - [ ] PL manifold (piecewise linear manifold)
 - [ ] Triangulation
-- [ ] CW complex
 - [ ] presheaf
 - [ ] orbit 
 - [ ] lens

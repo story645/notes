@@ -22,7 +22,6 @@ basepoint. (Such spaces are called pointed or based spaces.) The morphisms are
 continuous functions that map basepoint to basepoint, and composition is composition
 of functions.
 - hTop: The objects are topological spaces, the morphisms are homotopy classes of
-continuous functions, and composition is composition of these homotopy classes. The
-notion of homotopy will be introduced in section 1.6.
+continuous functions, and composition is composition of these homotopy classes.
 - Grp: The objects are groups, the morphisms are group homomorphisms, and compo-
 sition is composition of homomorphisms

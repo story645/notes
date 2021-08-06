@@ -19,6 +19,17 @@ k-simplex
   
 complete graph on k vertices = (k-1) simplex
 
+
 simplacial complex is set of simplicies considered one unit 
     - can be individual/independent 
     - if stuck together, must be along whole vertex, edge, face, etc.
+
+### skeleton
+- a $p$ skeleton is a simplacial subcomplex of K that is a collection of simplices of K of dimension at most $p$, denoted $K^{(p)}$ (wolfram)
+
+Lecture notes (Shewchuck)
+- subcomplex is subset of simplacial complex that is iteself a simplacial complex. 
+- $\varnothing$ is a face of every simplex, and to enforce this faces and simplicies are added to the subset.
+- closure of the subset: smallest subset $L\subseteq K$ that contains L.
+- a particular subcomples is the i-skeleton that consists of all simplicies $\sigma \in K$ whose dimension is i or less. 
+- the dimension of K is the largest dimension of any simplex $\sigma$: $dim K = max\{dim\; \sigma\}$
