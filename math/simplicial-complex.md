@@ -33,3 +33,10 @@ Lecture notes (Shewchuck)
 - closure of the subset: smallest subset $L\subseteq K$ that contains L.
 - a particular subcomples is the i-skeleton that consists of all simplicies $\sigma \in K$ whose dimension is i or less. 
 - the dimension of K is the largest dimension of any simplex $\sigma$: $dim K = max\{dim\; \sigma\}$
+
+simplicial set (nlab)
+- combinatorial space built up by gluing abstract simplicies to each other
+- simplacial set X is a collection of sets $S_n$ for $n\in \mathbb{N}$ s.t. elements in $S_n$ are n-simplicies with a rule that says:
+- which (n-1)-simplicies in S_{n-1} are faces of which elements in $S_n$
+- which (n+1) simplicies are thin:n-simplices regarded as degenerate (n+1) simplices 
+[[nerve]] of a small category is a simplicial set
