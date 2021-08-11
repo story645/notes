@@ -1,6 +1,7 @@
 ### natural transformation (Riehl)
 - [[categories]]: C, D
 - [[functors]]: $F, G: C \rightrightarrows D$ 
+  - also objects in categories of functors
 - natural transformation $\alpha_c : F(c)\rightarrow G(c) \in D$ for each object $c \in C$ (also called the c-component (Spivak & Fong)), the collection of which defines the components of the natural transformation such that for any morphism $f:c\rightarrow c^{\prime}$ the diagram commutes,
 ![](figures/natural-transform.png)
 ![](figures/natural-transform3.png)

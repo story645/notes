@@ -14,11 +14,12 @@
 - [x] Natural Transformation
 - [x] CW complex
 - [x] Covering space (see how this is just a fiber bundle with descrete fibers)
-- [ ] Fibration
-- [ ] Fiber bundle
-- [ ] Vector bundle
-- [ ] section
-- [ ] Sheaf
+- [x] Fibration
+- [x] Fiber bundle
+- [x] Vector bundle
+- [x] section
+- [x] presheaf
+- [?] sheaf
 - [ ] germ
 - [ ] Space of Continous sections related to sheaf
 - [ ] Topological Manifold

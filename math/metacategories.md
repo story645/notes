@@ -1,5 +1,5 @@
 ### metacategory
-[[metagraphs]]+ (Saunders + MacLaine) 
+[[metagraphs]]+ (Mac Lane) 
 - identity (operation): each object $a$ is assigned an arrow $id_a=1_a:a\rightarrow a$
 - composition (operation): each pair of arrows $<g,f>$ with dom $g$=cod $f$ is assigned an arrow $g\circ f$
     - $g \circ f$: dom $f \rightarrow$ cod $g$

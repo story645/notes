@@ -3,4 +3,5 @@
 - Spanier, Algebraic Topology.
 - Bradley, Terilla, and Bryson, Topology : A Categorical Approach.
 - Mac Lane, Categories for the Working Mathematician
-- Munkres, Elements of Algebraic Topology.
+- Munkres, Elements of Algebraic Topology
+- Milewski, “Category Theory for Programmers"

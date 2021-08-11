@@ -1,5 +1,5 @@
 ### categories
-- notation (Saunders + MacLaine)
+- notation (Mac Lane)
     - fx <=> f(x)
     - $g \circ f: X\rightarrow Z$, $x \mapsto g(f(x))$
     - category of all topological spaces:
@@ -11,7 +11,7 @@
 - category C consists of data:
     - class/collection (aggregate) of objects
     - identity morphism: for every object $X$, identity $id_x:X \rightarrow X$ (Spivak & Fong)
-    - for every two objects $X,Y$, set $C(X,Y)$ of morphisms $f:X\rightarrow Y$ (also known as $hom_C(X, Y)$)
+    - for every two objects $X,Y$, set $C(X,Y)$ of morphisms $f:X\rightarrow Y$ (also known as [[hom-sets|$hom_C(X, Y)$]])
     - composition rule for morphisms (composite morphism): if $f:X \rightarrow Y$ and $g:Y \rightarrow Z$ then $gf: X\rightarrow Z$
 - data must meet these axioms (conditions):
     - composition is associative: 

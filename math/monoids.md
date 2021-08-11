@@ -1,5 +1,6 @@
 monoid (S+M, pg. 2)
 - [[groups|group]] w/o inverses (semi group w/ identity)
+
 symmetric monoidal category (Spivak & Fong, Riehl)
 - data $(V, \otimes, *)$ 
   - category V
@@ -19,3 +20,11 @@ Monoid object $(M, \mu, \eta)$ in a symmetric monoidal category $(C, I, \otimes)
 - s.t 
   - $\mu \circ (\mu \otimes id) = \mu \circ (id \otimes \mu)$
   - $\mu \circ (\eta \otimes id) = id = \mu \circ (id \otimes \eta)$
+
+monoid (Mac Lane)
+- category with one object
+determined by
+- set of all its arrows
+- identity arrow
+- composition of arrows rule
+- for any category C and object $a \in C$, the [[hom-set|set hom(a,a)]] of all arrows $a\rightarrow a$ is a monoid. 

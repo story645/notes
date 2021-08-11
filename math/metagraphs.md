@@ -1,4 +1,4 @@
-### metagraph (Saunders + MacLaine)
+### metagraph (Mac Lane)
 - objects a, b, c
 - arrows/morphisms: f, g, h
 - operations: assign to each arrow and object
