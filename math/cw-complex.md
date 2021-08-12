@@ -10,3 +10,13 @@ $e^{n}$: n-cell, [[homeomorphism|hoemeomorphic]] to the open n-disk $D^{n}-\part
     - $\partial D^{n}$ the boundary of the n-disk
 
 Any topological space can be approximated by a CW complex that is unique up to [[homotopy]]. CW complexes are built in stages, from adjoining cells of a given dimension. Advantage over simplicial complex is usually fewer cells. 
+
+
+cw-complex can mean a particularly way of gluing together or that something could be represented
+as a cw-complex
+- eg. a sphere is a cw-complex means could be represented as such (non-specific cw-complex representation)
+  - in 4D can build spaces that aren't triangulizable makes cw-complexes more natural for topologists
+- can also use triangular (simplicial) or cubicial complexes 
+- implementation of how we can do it and overall fact that we can do it
+
+sphere is [[homeomorphism|homeomorphic]] to all cw-representations which are homeomorphic to each other   
