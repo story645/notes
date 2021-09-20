@@ -7,3 +7,5 @@
     - any finite intersection of elements in $\mathscr{T}$ is also in $\mathscr{T}$ 
 - notation: $X$ <=> $(X,\mathscr{T})$ when topology is understood
 - a topology - axiomatic way to construct topological space
+
+object is atomic is openset

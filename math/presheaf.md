@@ -15,7 +15,7 @@ $\Gamma$ assigns
   
   Notes:
   $\Gamma$ of the tangent bundle says this section arises out of the section maps coming from the base and fiber space,
-
+  - presheaf is a generalization of \Gamma
   what if someone just gave you sections? -> is a vector space?
 
   Higher order function:
@@ -23,3 +23,4 @@ $\Gamma$ assigns
       ex: infinite f(R)-> R^N, ex type(2)->int
     sheaf: input is open set, function returns section of bundle over open set
   can look at it as abstract data type, removes the structure
+is container->container, objects are opensets, arrows are inclusions 
