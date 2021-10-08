@@ -1,6 +1,7 @@
-###
-- Wilkenson
-- Steven's
+### scales
 
-[add notes here]
+functions from data to visual variable, kind of (Wilkinson, Mackinlay)
+
+
+
 
