@@ -13,7 +13,6 @@ presheaf $\Gamma$ is a sheaf if given collection $\mathscr{U}$ of open subsets o
    - sections $\gamma$ on 
 3. follows from 1 that every $\gamma$ in 2. is unique
 
-
 Notes:
 - two half open sets U = [0, +),  V=(-, 0] (for reals)
 - sqrt only defined on positive #s, input is only on $R^{+}$
