@@ -22,9 +22,18 @@ Monoid object $(M, \mu, \eta)$ in a symmetric monoidal category $(C, I, \otimes)
   - $\mu \circ (\eta \otimes id) = id = \mu \circ (id \otimes \eta)$
 
 monoid (Mac Lane)
-- category with one object
+- any category with one object
 determined by
 - set of all its arrows
 - identity arrow
 - composition of arrows rule
 - for any category C and object $a \in C$, the [[hom-set|set hom(a,a)]] of all arrows $a\rightarrow a$ is a monoid. 
+
+### monoidal categories [Milewksi]
+category C with a bifunctor: 
+$\otimes: C\times C \rightarrow C$ and a distinct object $i$ & three natural isomorphisms:
+associativity: $(a \otimes b) \otimes c \rightarrow a \otimes (b \otimes c)$
+left identity: $i \otimes a \rightarrow a$
+right identity: $a \otimes i \rightarrow a$
+
+
