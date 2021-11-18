@@ -36,4 +36,5 @@ associativity: $(a \otimes b) \otimes c \rightarrow a \otimes (b \otimes c)$
 left identity: $i \otimes a \rightarrow a$
 right identity: $a \otimes i \rightarrow a$
 
+bifunctor is what provides composition $(s,t) s \in S, t \in T$ (Spivak)
 
