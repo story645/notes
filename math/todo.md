@@ -20,9 +20,9 @@
 - [x] section
 - [x] presheaf
 - [x] sheaf
-- [ ] germ
-- [ ] Space of Continous sections related to sheaf
-- [ ] Topological Manifold
+- [x] germ
+- [x] Space of Continous sections related to sheaf ($\Gamma$)
+- [x] Topological Manifold
 - [ ] Smooth Manifold
 - [ ] Jet 
 - [ ] chart (local coordinates)
