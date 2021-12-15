@@ -55,3 +55,4 @@ $\{s: p \rightarrow (a, b) \mid p, a, b \in I\}  \xrightarrow{f_*}  \{s: f^{-1}[
 pullback (copy constant function over interval, t(q), f(p) = q)
 $\{t: f(p) \rightarrow c \mid p, c\in I\} \xrightarrow{f^*}\{t: q \rightarrow c \mid q \in \{q\}, c\in I\}$ s.t. $f(p) \in \{q\}$
 
+![](figures/pushpull.png)
