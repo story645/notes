@@ -18,7 +18,7 @@
 - coproduct is pushout from [[category-initial]]
 ![wikipedia](figures/pushout.png)
 
-### on [[sheaf|sheaves]]
+# on [[sheaf|sheaves]]
 * $F: X \rightarrow set$
 * $G: \rightarrow set$
 
@@ -26,18 +26,32 @@ morphism: $X \xrightarrow{f} Y$
 pushforward: $F(X) \xrightarrow{f_*} (f_*F)(Y)$
 pullback: $(f^*G)(X) \xrightarrow{f^*} G(Y)$ 
 
-### by [[function-types|function type]]
+## by [[function-types|function type]]
 * point $\{p\}$
-* codomains: I = [0,1], $\{p\} \subset I$ 
-* domain for sections s on {p} : I
-* domain for sections t on I: $I^2$
-#### injective (inclusion function $\iota$)
-* $F: \{p\} \rightarrow \{s: p \rightarrow x \mid p \in \{p\}, x\in I\}$
-* $G: I \rightarrow \{t:q\rightarrow (x,y) \mid q,x,y \in I\}$ 
+* codomains: $I = [0,1],\{p\} \subset I$ 
+* domain for sections $s$ on $\{p\}$ : $I$
+* domain for sections $t$ on $I$: $I^2$
+### injective (inclusion $\iota$)
+* $F: \{p\} \rightarrow \{s: p \rightarrow a \mid p \in \{p\}, a\in I\}$
+* $G: I \rightarrow \{t:q\rightarrow (b,c) \mid q,b,c \in I\}$ 
 
-morphism: $\{p\} \xrightarrow{f} [0,1]$
+morphism: $\{p\} \xrightarrow{f} \{q\} \in I \mid p\mapsto q$
+
 pushforward (skyscraper sheaf)
-$\{s: p \rightarrow x \mid p \in \{p\}, x\in I\} \xrightarrow{f_*} \begin{cases} q \in \{p\} & \{s:q\rightarrow x \mid x\in I\}\\ q\not\in \{p\} & 0 \end{cases}$
-pullback ([[stalk]])
-$\{t: p\rightarrow (x,y) \mid x,y \in I\} \xrightarrow{f^*}\{t:q\rightarrow (x,y) \mid x,y \in I\}$ for $p,q$ s.t. $f(p) \in q$
+$\{s: p \rightarrow a \mid p \in \{p\}, a\in I\} \xrightarrow{f_*} \begin{cases} f^{-1}[q] \in \{p\} & \{s: f^{-1}[q] \rightarrow a \mid a\in I\}\\ f^{-1}[q]\not\in \{p\} & 0 \end{cases}$
+
+pullback ([[stalk]] on q) 
+$\{t: f(p)\rightarrow (b,c) \mid b,c \in I\} \xrightarrow{f^*}\{t:q\rightarrow (b,c) \mid b,c \in I\}$ for $p,q$ s.t. $f(p) \in q$
+
+### surjective ($\xi$)
+* $F: I \rightarrow \{s: p \rightarrow (a,b) \mid p,a,b \in I\}$ 
+* $G: \{q\} \rightarrow \{t: q \rightarrow c \mid q \in \{c\}, x\in I\}$
+ 
+morphism: $I \xrightarrow{f} \{q\}$
+pushforward (delayed evaluation)
+$\{s: p \rightarrow (a, b) \mid p, a, b \in I\}  \xrightarrow{f_*}  \{s: f^{-1}[q] \rightarrow (a,b) \mid a,b \in I\}, f^{-1}[q]=I$
+
+
+pullback (copy constant function over interval, t(q), f(p) = q)
+$\{t: f(p) \rightarrow c \mid p, c\in I\} \xrightarrow{f^*}\{t: q \rightarrow c \mid q \in \{q\}, c\in I\}$ s.t. $f(p) \in \{q\}$
 
