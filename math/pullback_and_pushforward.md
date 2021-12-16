@@ -60,9 +60,15 @@ $\{t: f(p) \rightarrow c \mid p, c\in I\} \xrightarrow{f^*}\{t: q \rightarrow c 
 ![](figures/hom_equiv.png)
 * $F: x \rightarrow \{s: x \rightarrow set\}$
 * $G: y \rightarrow \{t: y \rightarrow set\}$
+* $f: X \rightarrow Y$
 * $f_*F: f^{-1}(y) \rightarrow \{s: f^{-1}(y) \rightarrow set\}$
 * $f^*G:  f(x) \rightarrow \{t: f(x) \rightarrow set\}$
   
+#### constraints
+* $f(x) \subset Y$
+* $f^{-1}(y) \in X$
+
+#### HomS
 * $Hom_{\mathcal{O}(X)}(f^*G,F) \ni \varphi_x: \{t: f(x) \rightarrow set\} \rightarrow \{s: x \rightarrow set\}$
 * $Hom_{\mathcal{O}(Y)}(G, f_*F) \ni \varphi_y: \{t: y \rightarrow set\} \rightarrow \{s: f^{-1}(y) \rightarrow set\}$
 
@@ -76,6 +82,3 @@ $(f^*\circ \varphi_{x,y}) \circ f_* = f^* \circ (\varphi_{x,y} \circ f_*)$
 #### currying
 * pushforward: $f_* \circ (t \rightarrow s) = (f^* \circ t)\rightarrow s$
 * pullback: $(t \rightarrow s) \circ f_* = t \rightarrow (f_* \circ s)$
-#### constraints
-* $f(x) \subset Y$
-* $f^{-1}(y) \in X$
