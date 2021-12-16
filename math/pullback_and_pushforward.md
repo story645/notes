@@ -80,5 +80,5 @@ $\varphi_x \circ f_* = f^* \circ \varphi_y$
 $(f^*\circ \varphi_{x,y}) \circ f_* = f^* \circ (\varphi_{x,y} \circ f_*)$ 
 
 #### currying
-* pushforward: $f_* \circ (t \rightarrow s) = (f^* \circ t)\rightarrow s$
-* pullback: $(t \rightarrow s) \circ f_* = t \rightarrow (f_* \circ s)$
+pushforward: $f_* \circ (t \rightarrow s) = (f^* \circ t)\rightarrow s$
+pullback: $(t \rightarrow s) \circ f_* = t \rightarrow (f_* \circ s)$
