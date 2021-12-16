@@ -48,11 +48,27 @@ $\{t: f(p)\rightarrow (b,c) \mid b,c \in I\} \xrightarrow{f^*}\{t:q\rightarrow (
 * $G: \{q\} \rightarrow \{t: q \rightarrow c \mid q \in \{c\}, x\in I\}$
  
 morphism: $I \xrightarrow{f} \{q\}$
-pushforward (delayed evaluation)
+pushforward (delayed evaluation) s(q)-> s(p)
 $\{s: p \rightarrow (a, b) \mid p, a, b \in I\}  \xrightarrow{f_*}  \{s: f^{-1}[q] \rightarrow (a,b) \mid a,b \in I\}, f^{-1}[q]=I$
 
-
-pullback (copy constant function over interval, t(q), f(p) = q)
+pullback (copy constant function over interval, t(p)->t(q))
 $\{t: f(p) \rightarrow c \mid p, c\in I\} \xrightarrow{f^*}\{t: q \rightarrow c \mid q \in \{q\}, c\in I\}$ s.t. $f(p) \in \{q\}$
 
 ![](figures/pushpull.png)
+
+### Hom equivalance  $Hom_{\mathcal{O}(X)}(f^*G,F) = Hom_{\mathcal{O}(Y)}(G, f_*F)$
+![](figures/hom_equiv.png)
+* $F: x \rightarrow \{s: x \rightarrow set\}$
+* $G: y \rightarrow \{t: y \rightarrow set\}$
+* $f_*F: f^{-1}(y) \rightarrow \{s: f^{-1}(y) \rightarrow set\}$
+* $f^*G:  f(x) \rightarrow \{t: f(x) \rightarrow set\}$
+  
+* $Hom_{\mathcal{O}(X)}(f^*G,F) \ni \varphi_x: \{t: f(x) \rightarrow set\} \rightarrow \{s: x \rightarrow set\}$
+* $Hom_{\mathcal{O}(Y)}(G, f_*F) \ni \varphi_y: \{t: y \rightarrow set\} \rightarrow \{s: f^{-1}(y) \rightarrow set\}$
+
+#### associativity of $\varphi$ components
+$\varphi_{x,y}: t \rightarrow s$
+$\varphi_x = f* \circ (t \rightarrow s) = f^*t \rightarrow s = f^*\circ \varphi_{x,y}$
+$\varphi_y = (t \rightarrow s) \circ f_* = t \rightarrow f_*s = \varphi_{x,y} \circ f_*$
+$\varphi_x \circ f_* = f^* \circ \varphi_y$
+$(f^*\circ \varphi_{x,y}) \circ f_* = f^* \circ (\varphi_{x,y} \circ f_*)$ 
