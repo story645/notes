@@ -74,11 +74,11 @@ $\{t: f(p) \rightarrow c \mid p, c\in I\} \xrightarrow{f^*}\{t: q \rightarrow c 
 
 #### associativity of $\varphi$ components
 $\varphi_{x,y}: t \rightarrow s$
-$\varphi_x = f_* \circ (t \rightarrow s) = f^*\circ \varphi_{x,y}$
+$\varphi_x = f^* \circ (t \rightarrow s) = f^*\circ \varphi_{x,y}$
 $\varphi_y = (t \rightarrow s) \circ f_* = \varphi_{x,y} \circ f_*$
 $\varphi_x \circ f_* = f^* \circ \varphi_y$
 $(f^*\circ \varphi_{x,y}) \circ f_* = f^* \circ (\varphi_{x,y} \circ f_*)$ 
 
 #### currying
-pushforward: $f_* \circ (t \rightarrow s) = (f^* \circ t)\rightarrow s$
-pullback: $(t \rightarrow s) \circ f_* = t \rightarrow (f_* \circ s)$
+pushforward to Y: $f_* \circ (t \rightarrow s) = (f^* \circ t)\rightarrow s$
+pullback to X: $(t \rightarrow s) \circ f_* = t \rightarrow (f_* \circ s)$
