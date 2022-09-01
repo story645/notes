@@ -8,7 +8,7 @@ paper notation: (K=B, $\pi=p$)
     - total space E
 - there exists an [[open-cover|open covering]] $\{U\}$ of B
 - for each $U \in \{U\}$ the [[homeomorphism]] $\phi_U: U \times F \rightarrow p^{-1}(U)$, s.t. the composite $U \times F \xrightarrow{\phi_U} p^{-1} \xrightarrow{p} U$ is the projection of the first factor. 
-- therefore $p E \rightarrow B$ is locally  equivalent to $B \times F \rightarrow B$
+- therefore $\pi:E \rightarrow B$ is locally  equivalent to $B \times F \rightarrow B$
 
 - generalization of [[covering-space]], which is base space $\times$ discrete fiber space
 
